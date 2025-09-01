@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Andaman Add Ventures - Book Your Island Adventure</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #e6f9fa 0%, #e9ffe6 100%);
+            margin: 0;
+            color: #222;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto 0 auto;
+            padding: 24px;
+            background:white;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,105,148,0.08);
+        }
+        .logo-wrap {
+            text-align:center;
+        }
+        .logo-img {
+            height: 120px;
+            margin-bottom:12px;
+            border-radius:50px;
+            background: #222;
+            object-fit: contain;
+        }
+        .headline {
+            text-align: center;
+            color: #006994;
+            font-size:2rem;
+            font-weight:700;
+            margin: 8px 0;
+        }
+        .subtitle {
+            text-align: center;
+            color: #009688;
+            font-size: 1.14rem;
+            margin-bottom: 6px;
+        }
+        .tagline {
+            text-align: center;
+            font-size:1.09rem;
+            font-weight:500;
+            font-style:italic;
+            margin-bottom: 14px;
+            letter-spacing:.5px;
+        }
+        .trip-text {
+            text-align:center;
+            color: #222;
+            font-size:1.05rem;
+            margin-bottom:16px;
+        }
+        ul.features {
+            background:#f7fcfe;
+            margin:22px auto;
+            max-width:520px;
+            padding:16px 18px;
+            border-radius:10px;
+            font-size:1.08rem;
+            color:#006994;
+            line-height:1.5;
+        }
+        .highlights {
+            background:rgba(0,153,136,0.05);
+            margin:24px 0 10px 0;
+            padding:14px 18px;
+            border-radius:10px;
+        }
+        .highlight-title {
+            font-weight:bold;
+            color:#009688;
+            margin:0 0 4px 0;
+        }
+        .highlight-desc {
+            color:#005c53;
+            margin-bottom:7px;
+        }
+        .callout {
+            font-size:1.15rem;
+            color:#006994;
+            font-weight:bold;
+            text-align:center;
+            margin:18px 0 10px 0;
+        }
+        .contact-section {
+            background:#fff8ee;
+            margin:16px auto 4px auto;
+            max-width:400px;
+            border-radius:10px;
+            padding:16px 10px;
+            color:#333;
+            text-align:center;
+            box-shadow:0 2px 8px rgba(0,105,148,0.05);
+        }
+        .contact-title {
+            font-size:1.09rem;
+            font-weight:600;
+            color:#006994;
+            margin-bottom:8px;
+        }
+        .contact-link {
+            color:#009688;
+            text-decoration:none;
+            margin: 0 5px;
+            font-weight: 600;
+        }
+        .contact-link.whatsapp { color:#25d366; }
+        .footer {
+            text-align:center;
+            color:#888;
+            margin-top:32px;
+            font-size:0.98rem;
+            padding-bottom:8px;
+        }
+        @media(max-width:700px){
+            .container{padding:10px;}
+            ul.features{padding:10px;}
+            .highlights{padding:10px;}
+            .contact-section{padding:10px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-wrap">
+            <!-- Logo image: Make sure 1000424743.jpeg is in the same folder -->
+            <img src="1000424743.jpeg" class="logo-img" alt="Andaman Add Ventures Logo">
+        </div>
+        <div class="headline">🌴 ANDAMAN ISLANDS TRIP 🌊</div>
+        <div class="subtitle">🏝 DURATION - 4NIGHTS / 5 DAYS <br> 📅 TRAVEL DATES - 1st September–8th Oct 2025</div>
+        <div class="tagline">"Travel is the best medicine!" ✈️🚤</div>
+        <div class="trip-text">
+            Hey Guys, Pack your bags and join us for an unforgettable tropical adventure to the breathtaking Andaman Islands! 🌊🌴
+        </div>
+        <ul class="features">
+            <li>✔️ Pristine white-sand beaches</li>
+            <li>✔️ Crystal-clear waters & coral reefs</li>
+            <li>✔️ Scuba diving & snorkeling adventures</li>
+            <li>✔️ Island hopping & thrilling water sports</li>
+            <li>✔️ Lush green mangroves & scenic sunsets</li>
+        </ul>
+        <div class="highlights">
+            <div class="highlight-title">🌊 Island Hopping:</div>
+            <div class="highlight-desc">🚤 Visit Havelock Island, Neil Island, Ross Island, and North Bay Island – each offering a unique experience!</div>
+            <div class="highlight-title">🤿 Scuba Diving & Snorkeling:</div>
+            <div class="highlight-desc">🐠 Dive into the vibrant marine world and explore stunning coral reefs!</div>
+            <div class="highlight-title">🏄‍♂️ Water Sports & Adventure:</div>
+            <div class="highlight-desc">🏊 Kayaking, Jet Skiing, Banana Boat Rides & more!</div>
+        </div>
+        <div class="callout">FULL-ON MASTI & UNFORGETTABLE SWEET MEMORIES! 🎉🏝️✨</div>
+        <div class="contact-section">
+            <div class="contact-title">📲 FOR BOOKINGS & DETAILS:</div>
+            <div>
+                📞 <b>Call or WhatsApp Anytime:</b><br>
+                <a href="tel:+917063918708" class="contact-link">+917063918708</a> /
+                <a href="tel:+917063995595" class="contact-link">+917063995595</a><br>
+                <a href="https://wa.me/917063918708?text=Hi%2C%20I%27m%20interested%20in%20Andaman%20packages!" class="contact-link whatsapp">WhatsApp 1</a>
+                <a href="https://wa.me/917063995595?text=Hi%2C%20I%27m%20interested%20in%20Andaman%20packages!" class="contact-link whatsapp">WhatsApp 2</a>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2025 Andaman Add Ventures. Your trusted partner for authentic Andaman experiences.
+        </div>
+    </div>
+</body>
+</html>
